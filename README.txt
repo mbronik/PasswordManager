@@ -1,11 +1,7 @@
-Plik: data.txt
-Hasło: admin
+This is a console application which lets you store passwords.
 
-Przy błędnej próbie odszyfrowania hasła się zaszyfrują(bez odwrotnie),
-nawet po wpisaniu poprawnego hasła nie będą one czytelne.
-Jest to zrobione celowo. Uzyskuje się to dzięki zastosowaniu
-separatorów w formie '|', które też ulegają szyfrowaniu.
-Podczas odszyfrowywania z błędnym hasłem separatory pojawiają się
-w różnych innych miejscach lub w ogóle. Alternatywą do tego rozwiązania jest
-np. zastosowanie stałych długości poszczególnych zmiennych lub oddzielenie
-poszczególnych danych enterami.
+You choose an encrypted text file with passwords, then you input a "master password" to this file. If the master password is wrong, the file gets corrupted and is unrecoverable.
+
+File: data.txt
+Password: admin
+
